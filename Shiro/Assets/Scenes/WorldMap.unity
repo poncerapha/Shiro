@@ -8045,7 +8045,7 @@ GameObject:
   - component: {fileID: 609049673}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8354,6 +8354,7 @@ GameObject:
   - component: {fileID: 921414805}
   - component: {fileID: 921414804}
   - component: {fileID: 921414803}
+  - component: {fileID: 921414802}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -8361,6 +8362,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &921414802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921414801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bebbfe90321ee834f9c897824402e5ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!61 &921414803
 BoxCollider2D:
   m_ObjectHideFlags: 0
